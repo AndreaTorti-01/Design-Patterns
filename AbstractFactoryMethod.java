@@ -11,7 +11,7 @@ public class AbstractFactoryMethod {
 }
 
 class App {
-    GUIFactory factory;
+    private GUIFactory factory;
 
     App(GUIFactory factory) {
         this.factory = factory;

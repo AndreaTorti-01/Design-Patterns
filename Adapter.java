@@ -17,7 +17,7 @@ public class Adapter {
 }
 
 class RoundHole {
-    double rad;
+    private double rad;
 
     RoundHole(double rad) {
         this.rad = rad;
@@ -33,7 +33,7 @@ class RoundHole {
 }
 
 class RoundBlock {
-    double rad;
+    private double rad;
 
     /*
      * UGLY!
@@ -52,7 +52,7 @@ class RoundBlock {
 }
 
 class SquareBlock {
-    double sideLen;
+    private double sideLen;
 
     SquareBlock(double sideLen) {
         this.sideLen = sideLen;
@@ -65,7 +65,7 @@ class SquareBlock {
 
 class SquareBlockAdapter extends RoundBlock {
 
-    SquareBlock block;
+    private SquareBlock block;
 
     SquareBlockAdapter(SquareBlock block) {
         // SOLUTION!
