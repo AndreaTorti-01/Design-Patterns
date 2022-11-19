@@ -39,20 +39,20 @@ interface Button {
     public void render();
 }
 
-class WindowsButton implements Button{
-    public void render(){
+class WindowsButton implements Button {
+    public void render() {
         System.out.println("created windows button");
     }
 }
 
-class DefaultButton implements Button{
-    public void render(){
+class DefaultButton implements Button {
+    public void render() {
         System.out.println("created default button");
     }
 }
 
-class WebButton implements Button{
-    public void render(){
+class WebButton implements Button {
+    public void render() {
         System.out.println("created web button");
     }
 }
