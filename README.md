@@ -1,4 +1,4 @@
-# Design_Patterns
+# Design Patterns - Java
 
 Some common design patterns implemented in Java
 
