@@ -35,9 +35,11 @@ class RoundHole {
 class RoundBlock {
     double rad;
 
-    // UGLY!
-    RoundBlock() {
-    }
+    /*
+     * UGLY!
+     * RoundBlock() {
+     * }
+     */
 
     RoundBlock(double rad) {
         this.rad = rad;
@@ -66,7 +68,8 @@ class SquareBlockAdapter extends RoundBlock {
     SquareBlock block;
 
     SquareBlockAdapter(SquareBlock block) {
-
+        // SOLUTION!
+        super(block.getSideLen());
         this.block = block;
     }
 
